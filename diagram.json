@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": -5.5,
+      "left": 41.4,
+      "rotate": 90,
+      "attrs": { "env": "micropython-20230426-v1.20.0" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 15.6, "left": 195.8, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 15.6,
+      "left": 253.4,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 15.6,
+      "left": 224.6,
+      "attrs": { "color": "yellow" }
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": -43.6, "left": 31.9, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "led1:C", "esp:GND.1", "red", [ "v105.6", "h-162.9" ] ],
+    [ "led1:A", "esp:D13", "red", [ "v96", "h-163.4" ] ],
+    [ "led:A", "esp:D12", "green", [ "v19.2", "h-231.1" ] ],
+    [ "led3:C", "esp:GND.1", "limegreen", [ "v144", "h-220.5" ] ],
+    [ "sw1:3", "esp:3V3", "purple", [ "v19.2", "h-67", "v144", "h48" ] ],
+    [ "led2:A", "esp:D14", "yellow", [ "v115.2", "h-172.7" ] ],
+    [ "sw1:1", "esp:GND.1", "purple", [ "h-67.2", "v182.4", "h76.7" ] ],
+    [ "sw1:2", "esp:D2", "magenta", [ "v9.6", "h-67.1", "v163.2", "h86.4", "v-18.9" ] ],
+    [ "led3:A", "esp:D12", "limegreen", [ "v134.4", "h-211.9" ] ],
+    [ "led2:C", "esp:GND.1", "yellow", [ "v124.8", "h-191.7" ] ]
+  ],
+  "dependencies": {}
+}

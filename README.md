@@ -23,14 +23,5 @@ https://wokwi.com/projects/431778079417504769
 
 ### Back-end
 
-- [ ] Connect to VS-CODE Python.
-- [ ] Set the communication protocol [MQTT].
-
-## Python
-### Front-end
-
-- [ ] a
-
-### Back-end
-
-- [ ] a
+- [ ] Configure pir-motion-sensor.
+- [ ] Set the matematic parameters.

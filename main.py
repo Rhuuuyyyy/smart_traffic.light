@@ -2,6 +2,7 @@ import machine
 import time
 
 # Matematic's var
+
 basic_time = 15
 
 # Set the LED's input 
@@ -29,7 +30,6 @@ while True:
         led3.off()
         count = 0
         while count == 0:
-            while basic_time != 0:
             led1.on()
             time.sleep(basic_time)
             led1.off()
@@ -37,15 +37,13 @@ while True:
         count = 1
         if count == 1:
             while count == 1:
-                while basic_time != 0:
                 led2.on()
-                time.sleep(4)
+                time.sleep(3)
                 led2.off()
                 count += 1
         count = 2
         if count == 2:
             while count == 2:
-                while basic_time != 0:
                 led3.on()
                 time.sleep(basic_time)
                 led3.off()

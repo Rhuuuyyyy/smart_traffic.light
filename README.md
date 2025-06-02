@@ -4,7 +4,7 @@ This project consists in a smart traffic light, that will help drivers and pedes
 
 ## How to run this code:
 ```
-"How to run"
+https://wokwi.com/projects/431778079417504769
 ```
 
 ## Steps

@@ -26,7 +26,9 @@
       "left": 224.6,
       "attrs": { "color": "yellow" }
     },
-    { "type": "wokwi-slide-switch", "id": "sw1", "top": -43.6, "left": 31.9, "attrs": {} }
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": -24.4, "left": 22.3, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 61.6, "left": -199.38, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir2", "top": -140, "left": 203.82, "attrs": {} }
   ],
   "connections": [
     [ "esp:TX0", "$serialMonitor:RX", "", [] ],

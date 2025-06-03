@@ -1,32 +1,32 @@
 # Smart Traffic Light | Ciberfisics Systems Fundaments Project | PUC-PR
 
-This project consists in a smart traffic light, that will help drivers and pedestrians in yours tours, with security and agility.
+This project consists in a smart traffic light, that will help drivers and pedestrians in yours tours, with security and agility. 🚦
 
-## How to run this code:
+## How to run this code: 
 ```
 https://wokwi.com/projects/431778079417504769
 ```
 
 ## Steps
 
-### Project Base
+### Project Base 🚦
 
 - [ ] Set when the project will be use.
 - [ ] Check traffic laws.
 - [ ] Set what the negative points are.
 
 ## Wokwi and Micropython
-### Front-end
+### Front-end 🔴
 
 - [x] Set which colors and buttons will be used.
 - [x] Visual identity.
 
-### Back-end
+### Back-end 🟡
 
 - [x] Configure pir-motion-sensor.
 - [x] Configure led's. 
 - [x] Set the matematic parameters.
 
-### Document 
+### Document 🟢
 
 - [ ] Finish AVA Document.

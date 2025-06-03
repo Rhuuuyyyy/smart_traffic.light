@@ -18,10 +18,11 @@ https://wokwi.com/projects/431778079417504769
 ## Wokwi and Micropython
 ### Front-end
 
-- [ ] Set which colors and buttons will be used.
+- [x] Set which colors and buttons will be used.
 - [ ] Visual identity.
 
 ### Back-end
 
 - [ ] Configure pir-motion-sensor.
+- [x] Configure led's. 
 - [ ] Set the matematic parameters.

@@ -19,10 +19,14 @@ https://wokwi.com/projects/431778079417504769
 ### Front-end
 
 - [x] Set which colors and buttons will be used.
-- [ ] Visual identity.
+- [x] Visual identity.
 
 ### Back-end
 
 - [x] Configure pir-motion-sensor.
 - [x] Configure led's. 
 - [x] Set the matematic parameters.
+
+### Document 
+
+- [ ] Finish AVA Document.

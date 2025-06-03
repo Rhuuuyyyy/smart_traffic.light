@@ -23,6 +23,6 @@ https://wokwi.com/projects/431778079417504769
 
 ### Back-end
 
-- [ ] Configure pir-motion-sensor.
+- [x] Configure pir-motion-sensor.
 - [x] Configure led's. 
-- [ ] Set the matematic parameters.
+- [x] Set the matematic parameters.

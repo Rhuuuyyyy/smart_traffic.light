@@ -27,8 +27,14 @@
       "attrs": { "color": "yellow" }
     },
     { "type": "wokwi-slide-switch", "id": "sw1", "top": -24.4, "left": 22.3, "attrs": {} },
-    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 61.6, "left": -199.38, "attrs": {} },
-    { "type": "wokwi-pir-motion-sensor", "id": "pir2", "top": -140, "left": 203.82, "attrs": {} }
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 71.2, "left": -141.78, "attrs": {} },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir2",
+      "top": 234.4,
+      "left": -141.78,
+      "attrs": {}
+    }
   ],
   "connections": [
     [ "esp:TX0", "$serialMonitor:RX", "", [] ],
@@ -42,7 +48,13 @@
     [ "sw1:1", "esp:GND.1", "purple", [ "h-67.2", "v182.4", "h76.7" ] ],
     [ "sw1:2", "esp:D2", "magenta", [ "v9.6", "h-67.1", "v163.2", "h86.4", "v-18.9" ] ],
     [ "led3:A", "esp:D12", "limegreen", [ "v134.4", "h-211.9" ] ],
-    [ "led2:C", "esp:GND.1", "yellow", [ "v124.8", "h-191.7" ] ]
+    [ "led2:C", "esp:GND.1", "yellow", [ "v124.8", "h-191.7" ] ],
+    [ "pir1:VCC", "esp:3V3", "cyan", [ "v57.6", "h192" ] ],
+    [ "pir1:GND", "esp:GND.1", "cyan", [ "v38.4", "h182.04" ] ],
+    [ "pir1:OUT", "esp:D27", "blue", [ "v48", "h229.96" ] ],
+    [ "pir2:VCC", "esp:3V3", "red", [ "v28.8", "h144" ] ],
+    [ "pir2:GND", "esp:GND.1", "orange", [ "v9.6", "h134.14", "v-191.7" ] ],
+    [ "pir2:OUT", "esp:D26", "red", [ "v19.2", "h153.46", "v-124.8", "h38.3" ] ]
   ],
   "dependencies": {}
 }

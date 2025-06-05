@@ -12,9 +12,9 @@ With wi-fi: https://wokwi.com/projects/432776715671827457
 
 ### Project Base 🚦
 
-- [ ] Set when the project will be use.
+- [x] Set when the project will be use.
 - [ ] Check traffic laws.
-- [ ] Set what the negative points are.
+- [x] Set what the negative points are.
 
 ## Wokwi and Micropython
 ### Front-end 🔴

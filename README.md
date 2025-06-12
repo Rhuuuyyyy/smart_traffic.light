@@ -8,12 +8,14 @@ Without wi-fi: https://wokwi.com/projects/431778079417504769
 With wi-fi: https://wokwi.com/projects/432776715671827457
 ```
 
+# FINISHED 
+
 ## Steps
 
 ### Project Base 🚦
 
 - [x] Set when the project will be use.
-- [ ] Check traffic laws.
+- [x] Check traffic laws.
 - [x] Set what the negative points are.
 
 ## Wokwi and Micropython
@@ -30,4 +32,4 @@ With wi-fi: https://wokwi.com/projects/432776715671827457
 
 ### Document 🟢
 
-- [ ] Finish AVA Document.
+- [x] Finish AVA Document.
